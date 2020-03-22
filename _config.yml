@@ -19,7 +19,7 @@ name: Dang Hao's blog, welcome!
 description: My blog is from a jekyll theme for minimalist.
 
 github: https://github.com/gejiangwendi/gejiangwendi.github.io
-rss: true
+#rss: true
 
 plugins:
   - rouge
