@@ -8,6 +8,6 @@ reward: false
 
 ---
 
-[gejiangwendi] 's blog.
+[gejiangwendi] is a github lib of blog.
 
 [gejiangwendi]: https://gejiangwendi.github.io

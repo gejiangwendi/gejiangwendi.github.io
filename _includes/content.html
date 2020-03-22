@@ -15,20 +15,15 @@
   </style>
 </head>
 <body>
-<p class="p1"><span class="s1">{{ content }}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p3"><span class="s1">{% if site.reward and site.reward == true %} {% unless page.reward != null and page.reward == false %}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p3"><span class="s1">{% if site.reward_description %}</span></p>
-<p class="p1"><span class="s1">{{ site.reward_description }}</span></p>
-<p class="p3"><span class="s1">{% endif %}</span></p>
-<p class="p4"><span class="s1">赏</span></p>
-<p class="p3"><span class="s1">{% endunless %} {% endif %} {% if site.comment and site.comment == true %} {% unless page.comment != null and page.comment == false %} {% if site.gitment_client_id and site.gitment_secret %}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p4"><span class="s1">显示评论</span></p>
-<p class="p3"><span class="s1">{% endif %} {% if site.livere_uid %}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p4"><span class="s1">显示评论</span></p>
-<p class="p3"><span class="s1">{% endif %} {% endunless %} {% endif %}<span class="Apple-converted-space"> </span></span></p>
+    <p class="p1"><span class="s1">{{ content }}</span></p>
+    <p class="p2"><span class="s1"></span><br></p>
+
+
+    <div class="page-content">
+        <div class="content" id="post-content">
+            <p>{{ content }}</p>
+        </div>
+    </div>
+
 </body>
 </html>

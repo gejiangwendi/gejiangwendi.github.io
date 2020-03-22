@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-theme-minimalism"
+  spec.name          = "gejiangwendi.github.io"
   spec.version       = "0.1.13"
-  spec.authors       = ["showzeng"]
-  spec.email         = ["kingstageshow@gmail.com"]
+  spec.authors       = ["gejiangwendi"]
+  spec.email         = ["danghao0815@sina.com"]
 
-  spec.summary       = "Minimalism is a jekyll theme for minimalist"
-  spec.homepage      = "https://github.com/showzeng/minimalism"
+  spec.summary       = "Gejiangwendi is a jekyll theme for minimalist"
+  spec.homepage      = "https://github.com/gejiangwendi/gejiangwendi.github.io"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select do |f|
