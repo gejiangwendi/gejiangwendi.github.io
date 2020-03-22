@@ -9,31 +9,26 @@
   <style type="text/css">
     p.p1 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
     p.p2 {margin: 0.0px 0.0px 6.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 12.0px}
-    p.p3 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px 'Songti SC'; color: #0000e9; -webkit-text-stroke: #0000e9}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px 'Songti SC'; color: #000000; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px 'Songti SC'; color: #000000; -webkit-text-stroke: #000000}
     span.s1 {font-kerning: none}
-    span.s2 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
-    span.s3 {text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000e9}
-    span.s4 {font: 12.0px Times; text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000e9}
   </style>
 </head>
 <body>
 <p class="p1"><span class="s1">{{ content }}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p3"><span class="s2">#本作品采用<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><span class="s3">知识共享署名</span><span class="s4">-</span><span class="s3">非商业性使用</span><span class="s4">-</span><span class="s3">禁止演绎</span><span class="s4"> 4.0 </span><span class="s3">国际许可协议</span></a>进行许可。</span></p>
-<p class="p4"><span class="s1">{% if site.reward and site.reward == true %} {% unless page.reward != null and page.reward == false %}</span></p>
+<p class="p3"><span class="s1">{% if site.reward and site.reward == true %} {% unless page.reward != null and page.reward == false %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p4"><span class="s1">{% if site.reward_description %}</span></p>
+<p class="p3"><span class="s1">{% if site.reward_description %}</span></p>
 <p class="p1"><span class="s1">{{ site.reward_description }}</span></p>
-<p class="p4"><span class="s1">{% endif %}</span></p>
-<p class="p5"><span class="s1">赏</span></p>
-<p class="p4"><span class="s1">{% endunless %} {% endif %} {% if site.comment and site.comment == true %} {% unless page.comment != null and page.comment == false %} {% if site.gitment_client_id and site.gitment_secret %}</span></p>
+<p class="p3"><span class="s1">{% endif %}</span></p>
+<p class="p4"><span class="s1">赏</span></p>
+<p class="p3"><span class="s1">{% endunless %} {% endif %} {% if site.comment and site.comment == true %} {% unless page.comment != null and page.comment == false %} {% if site.gitment_client_id and site.gitment_secret %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p5"><span class="s1">显示评论</span></p>
-<p class="p4"><span class="s1">{% endif %} {% if site.livere_uid %}</span></p>
+<p class="p4"><span class="s1">显示评论</span></p>
+<p class="p3"><span class="s1">{% endif %} {% if site.livere_uid %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p5"><span class="s1">显示评论</span></p>
-<p class="p4"><span class="s1">{% endif %} {% endunless %} {% endif %}<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1">显示评论</span></p>
+<p class="p3"><span class="s1">{% endif %} {% endunless %} {% endif %}<span class="Apple-converted-space"> </span></span></p>
 </body>
 </html>
