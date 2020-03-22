@@ -14,11 +14,11 @@ defaults:
     values:
       image: true
 
-title: Minimalism
-name: minimalism
-description: Minimalism is a jekyll theme for minimalist
+title: My personal blog - Dang Hao
+name: blog
+description: blog is from a jekyll theme for minimalist
 
-github: https://github.com/showzeng/Minimalism
+github: https://github.com/gejiangwendi/blog
 rss: true
 
 plugins:
