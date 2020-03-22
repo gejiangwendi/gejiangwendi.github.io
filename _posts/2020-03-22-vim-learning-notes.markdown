@@ -18,9 +18,13 @@ i       #进入编辑模式
 esc     #退出编辑模式
 :wq     #保存并退出vim
 15G     #跳转到第15行
-v       #
-p       #
-u       #
+v       #选择
+N/n     #查找 上一处，下一处
+p       #粘贴
+u       #撤销
+y       #拷贝
+o       #分段
+?/      #搜索
 home/end/pageup/pagedown
 {% endhighlight %}
 
