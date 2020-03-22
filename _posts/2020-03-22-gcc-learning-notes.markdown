@@ -30,12 +30,14 @@ gcc -o main main.c test.a
 Below is a `gcc compile example` :
 
 编译目录结构如下：
+{% highlight ruby %}
 ---test dir
    ---sdk
       ---*.c
    ---out
    ---main.c
    ---sdk_compile.sh
+{% endhighlight %}
 
 以下为编译脚本sdk_compile.sh内容：
 
