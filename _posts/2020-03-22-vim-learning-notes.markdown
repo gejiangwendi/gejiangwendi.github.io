@@ -22,12 +22,21 @@ v       #选择
 N/n     #查找 上一处，下一处
 p       #粘贴
 u       #撤销
+dd      #删除 光标所在行
 y       #拷贝
+yy      #拷贝 光标所在行
+10yy    #拷贝 光标向下10行
+J       #合并 当前与下一行
 o       #分段
 ?/      #搜索
+
+#寻找 word1 字符串，并将该字符串取代为 word2 ！(gc需要confirm)
+:1,$s/word1/word2/g 或 :%s/word1/word2/g
+:1,$s/word1/word2/gc 或 :%s/word1/word2/gc
+
 home/end/pageup/pagedown
 {% endhighlight %}
 
-Check out [my lib][danghao-github] for more info.
+Please click [runoob] for more info.
 
-[danghao-github]: https://github.com/gejiangwendi
+[runoob]: https://www.runoob.com/linux/linux-vim.html

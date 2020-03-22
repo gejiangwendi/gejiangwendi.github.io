@@ -26,6 +26,4 @@ git commit -m "modify"
 git push origin
 {% endhighlight %}
 
-Check out [my lib][danghao-github] for more info.
-
-[danghao-github]: https://github.com/gejiangwendi
+-End-

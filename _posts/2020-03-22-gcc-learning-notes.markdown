@@ -68,7 +68,3 @@ printf '\nok! new main.app is created.\n\n'
 {% endhighlight %}
 
 -End-
-
-Check out [my lib][danghao-github] for more info.
-
-[danghao-github]: https://github.com/gejiangwendi
