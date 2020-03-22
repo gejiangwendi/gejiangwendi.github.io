@@ -4,7 +4,7 @@ title: git learning notes
 date: 2020-03-22 11:38:20 +0300
 description: My learning notes of Git.
 img: post-6.jpg
-tags: [Blog, Notes]
+tags: [Learning Notes]
 author: Dang Hao
 ---
 Below is `git` learning notes of some commands:

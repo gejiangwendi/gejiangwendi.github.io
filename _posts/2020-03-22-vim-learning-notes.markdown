@@ -4,7 +4,7 @@ title: vim learning notes
 date: 2020-03-22 14:38:20 +0300
 description: My learning notes of vim edit tool.
 img: post-6.jpg
-tags: [Blog, Notes]
+tags: [Learning Notes]
 author: Dang Hao
 ---
 This is my `vim` learning notes: 
