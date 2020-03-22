@@ -14,7 +14,6 @@ reward: false
         <li>1226232719</li>
         <li>广东省深圳市南山区西丽中兴通讯工业园</li>
     </ul>
-  If you want to learn <a href="https://www.runoob.com/try/try.php?filename=tryhtml_layout_divs">HTML</a> , click it!
+  If you want to learn <a href="https://www.runoob.com/try/try.php?filename=tryhtml_intro">HTML</a> , click it!
 
 </div>
-
