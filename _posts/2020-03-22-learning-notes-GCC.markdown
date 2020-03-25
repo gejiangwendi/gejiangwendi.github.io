@@ -1,6 +1,6 @@
 ---
 layout: post
-title: gcc learning notes
+title: learning notes GCC
 date: 2020-03-22 10:38:20 +0300
 description: My learning notes of GCC.
 tags: [LearningNotes]
@@ -67,4 +67,6 @@ gcc -o main.app main.c ./out/lib.a
 printf '\nok! new main.app is created.\n\n'
 {% endhighlight %}
 
--End-
+Please click [Learn Gcc] for more info.
+
+[Learn Gcc]: http://c.biancheng.net/view/676.html

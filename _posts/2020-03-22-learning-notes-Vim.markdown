@@ -37,6 +37,6 @@ o       #分段
 home/end/pageup/pagedown
 {% endhighlight %}
 
-Please click [runoob] for more info.
+Please click [Learn Vim] for more info.
 
-[runoob]: https://www.runoob.com/linux/linux-vim.html
+[Learn Vim]: https://www.runoob.com/linux/linux-vim.html

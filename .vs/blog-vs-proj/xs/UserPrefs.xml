@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{118FED58-2C21-4D62-A8EB-73545F430A63}|Default">
+  <MonoDevelop.Ide.ItemProperties.blog-vs-proj PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="_posts/2020-03-22-learning-notes-Vim.markdown">
+    <Files>
+      <File FileName="_posts/2020-03-22-learning-notes-C.markdown" Line="18" Column="1" />
+      <File FileName="_posts/2020-03-22-learning-notes-GCC.markdown" Line="12" Column="7" />
+      <File FileName="_posts/2020-03-22-learning-notes-Git.markdown" Line="9" Column="4" />
+      <File FileName="_posts/2020-03-22-learning-notes-Linux.markdown" Line="19" Column="16" />
+      <File FileName="_posts/2020-03-22-learning-notes-Vim.markdown" Line="40" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="blog-vs-proj" expanded="True">
+            <Node name="blog-vs-proj" expanded="True">
+              <Node name="_posts" expanded="True">
+                <Node name="2020-03-22-learning-notes-Vim.markdown" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

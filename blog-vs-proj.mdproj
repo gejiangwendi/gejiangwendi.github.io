@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>GenericProject</ItemType>
+    <ProjectGuid>{118FED58-2C21-4D62-A8EB-73545F430A63}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="_config.yml" />
+    <None Include="about.md" />
+    <None Include="archive.md" />
+    <None Include="articles.md" />
+    <None Include="blog-vs-proj.mdproj" />
+    <None Include="blog-vs-proj.sln" />
+    <None Include="categories.md" />
+    <None Include="feed.xml" />
+    <None Include="Gemfile" />
+    <None Include="index.md" />
+    <None Include="jekyll-theme-minimalism.gemspec" />
+    <None Include="LICENSE.txt" />
+    <None Include="README.md" />
+    <None Include="_posts\2020-03-22-learning-notes-C.markdown" />
+    <None Include="_posts\2020-03-22-learning-notes-GCC.markdown" />
+    <None Include="_posts\2020-03-22-learning-notes-Git.markdown" />
+    <None Include="_posts\2020-03-22-learning-notes-Vim.markdown" />
+    <None Include="_layouts\post.html" />
+    <None Include="_layouts\index.html" />
+    <None Include="_layouts\articles.html" />
+    <None Include="_layouts\about.html" />
+    <None Include="_layouts\archive.html" />
+    <None Include="_layouts\categories.html" />
+    <None Include="_includes\google.html" />
+    <None Include="_includes\copyright.html" />
+    <None Include="_includes\.DS_Store" />
+    <None Include="_includes\baidu.html" />
+    <None Include="_includes\statistics_head.html" />
+    <None Include="_includes\cnzz.html" />
+    <None Include="_includes\statistics_body.html" />
+    <None Include="_includes\favicon.html" />
+    <None Include="_includes\footer.html" />
+    <None Include="_includes\header.html" />
+    <None Include="_includes\header_title.html" />
+    <None Include="_includes\content.html" />
+    <None Include="_sass\_prism-line-numbers.scss" />
+    <None Include="_sass\_index.scss" />
+    <None Include="_sass\_about.scss" />
+    <None Include="_sass\_categories.scss" />
+    <None Include="_sass\_articles.scss" />
+    <None Include="_sass\_archive.scss" />
+    <None Include="_sass\_common.scss" />
+    <None Include="_sass\_post.scss" />
+    <None Include="_sass\_markdown.scss" />
+    <None Include="assets\css\about.scss" />
+    <None Include="assets\css\articles.scss" />
+    <None Include="assets\css\index.scss" />
+    <None Include="assets\css\post.scss" />
+    <None Include="assets\css\prism-line-numbers.scss" />
+    <None Include="assets\css\markdown.scss" />
+    <None Include="assets\css\prism.css" />
+    <None Include="assets\css\categories.scss" />
+    <None Include="assets\css\archive.scss" />
+    <None Include="assets\js\prism-line-numbers.js" />
+    <None Include="assets\js\lock_copy.js" />
+    <None Include="assets\js\prism.js" />
+    <None Include="assets\js\post_content_init.js" />
+    <None Include="assets\js\timeline.js" />
+    <None Include="assets\js\zooming.min.js" />
+    <None Include="assets\js\copy_with_declaration.js" />
+    <None Include="assets\js\lock_menu.js" />
+    <None Include="assets\img\favicon.ico" />
+    <None Include="assets\img\.DS_Store" />
+    <None Include="assets\img\avatar.webp" />
+    <None Include="docs\screenshot.png" />
+    <None Include="docs\reward.webp" />
+    <None Include="script\new.ps1" />
+    <None Include="script\cibuild" />
+    <None Include="script\bootstrap" />
+    <None Include="script\release" />
+    <None Include="script\new" />
+    <None Include="script\build" />
+    <None Include="script\serve" />
+    <None Include="_posts\2020-03-22-learning-notes-Linux.markdown" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="_posts\" />
+  </ItemGroup>
+</Project>
