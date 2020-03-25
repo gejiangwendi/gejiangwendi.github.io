@@ -1,6 +1,6 @@
 ---
 layout: post
-title: vim learning notes
+title: learning notes Vim
 date: 2020-03-22 14:38:20 +0300
 description: My learning notes of vim edit tool.
 img: post-6.jpg
